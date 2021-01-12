@@ -1,0 +1,85 @@
+@import url(reset.css);
+
+.page{
+	font-family: Helvetica, sans-serif;
+	
+}
+
+.header{
+	background-color: #E5E000;
+}
+.header-container{
+	padding: 80px;
+}
+
+.header-container h1 {
+	color: white;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 40px;
+}
+
+.nav {
+	background-color: #E5E000;
+	padding: 36px 80px 35px;
+}
+
+.nav-container{
+	font-size: 25px;
+	line-height: 29px;
+	font-weight: 700;
+	color: white;
+	text-transform: uppercase;
+}
+
+.nav-container a{
+	color: white;
+	text-decoration: none;
+}
+.person-photo{
+	width: 100%;
+	display: block;
+}
+
+.main-container{
+	padding: 110px 80px;
+}
+
+h2, p {
+	font-size: 50px;
+	line-height: 57.7px;
+}
+
+h2{
+	font-weight: 700;
+}
+
+.main-container p{
+	margin-top: 50px;
+}
+
+.footer{
+	background-color: #E5E000;
+}
+
+.footer-container{
+	padding: 68px 80px;
+}
+
+.footer-container .logo{
+	float: left;
+	margin: 9px 0;
+}
+
+.footer-container p {
+	float: right;
+	color: white;
+	line-height: 64px;
+	font-weight: 700;
+}
+
+.clear-fix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
