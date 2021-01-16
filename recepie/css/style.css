@@ -1,0 +1,62 @@
+@import url(reset.css);
+@import url(custom_reset.css);
+
+.page{
+	min-width: 1350px;
+}
+
+.header, .footer{
+	background-color: #FE1A19;
+}
+.header-container, .footer-container{
+	height: 60px;
+	padding: 20px;
+}
+
+.header-container p, .footer-container p{
+	font-size: 20px;
+	line-height: 23px;
+	height: 20px;
+	color: white;
+	text-transform: uppercase;
+	font-family: Helvetica, sans-serif;
+	font-weight: 700;
+}
+
+.column{
+	padding: 33px;
+	border: 5px solid #E5E000;
+	border-radius: 30px;
+	width: 400px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 52px 25px;
+}
+
+.column h2{
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
+	line-height: 23px;
+	font-weight: 700;
+	margin-bottom: 41px;
+}
+
+.main-container{
+	font-size: 0;
+	margin: auto;
+	width: 1350px;
+}
+
+.column p, .column h3{
+	font-family: Times New Roman, serif;
+	font-size: 20px;
+	line-height: 23px;
+}
+.column p{
+
+}
+
+.column h3{
+	text-transform: uppercase;
+	margin-top: 23px;
+}
