@@ -1,3 +1,16 @@
+/* Default browser reset*/
+
+* {
+	margin: 0;
+}
+
+h1, h2, h3, h4, h6, h6{
+	font-size: 16px;
+	font-weight: normal;
+	//margin: 0;
+}
+
+
 /* Box-sizing reset method*/
 
 html {
