@@ -1,24 +1,22 @@
 @import url(reset.css);
 @import url(custom_reset.css);
 
-.topBlock{
-	background-color: red;
-	width: 300px;
-	height: 300px;
-	//margin-bottom: 30px;
-}
-
-.bottomBlock{
+.main {
+	display: flex;
+	//width: 1000px;
 	background-color: blue;
-	width: 300px;
-	height: 300px;
-	padding: 1px;
-
+	padding: 30px 15px;
+	align-items: flex-start;
+}
+.block{
+	background-color: pink;
+	padding: 30px;
+	margin: 15px;
+	width: calc(100% - (6 * 30px) / 3);
 }
 
-.child{
-	background-color: green;
-	width: 100px;
-	height: 100px;
-	margin-top: 30px;
+.block:first-child{
+	height: 400px;
 }
+
+
