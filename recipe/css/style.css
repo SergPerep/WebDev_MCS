@@ -35,8 +35,19 @@ a{
 	text-decoration: none;
 }
 
-/* ------ Reset end ------  */
+/* ------------------ Reset end -----------------  */
 
+/* Variables */
+
+:root{
+	--c-red: #FE1A19;
+	--c-yellow: #E5E000;
+	--ff-times: Times New Roman, serif;
+	--ff-helv: Helvetica, sans-serif;
+	--fs-body: 2rem;
+}
+
+/* ------------------ Variables end -----------------  */
 
 html{
 	font-size: 10px;
@@ -47,25 +58,25 @@ html{
 }
 
 .header, .footer{
-	background-color: #FE1A19;
+	background-color: var(--c-red);
 }
 .header-container, .footer-container{
 	height: 60px;
 	padding: 20px;
 }
 
-.header-container p, .footer-container p{
-	font-size: 2rem;
+.header-container p, .footer-container {
+	font-size: var(--fs-body);
 	line-height: 23px;
 	color: white;
 	text-transform: uppercase;
-	font-family: Helvetica, sans-serif;
+	font-family: var(--ff-helv);
 	font-weight: 700;
 }
 
 .column{
 	padding: 33px;
-	border: 5px solid #E5E000;
+	border: 5px solid var(--c-yellow);
 	border-radius: 30px;
 	width: 400px;
 	display: inline-block;
@@ -80,8 +91,8 @@ html{
 }
 
 .column h2{
-	font-family: Helvetica, sans-serif;
-	font-size: 2rem;
+	font-family: var(--ff-helv);
+	font-size: var(--fs-body);
 	line-height: 23px;
 	font-weight: 700;
 	margin-bottom: 41px;
@@ -95,8 +106,8 @@ html{
 }
 
 .column li, .column h3{
-	font-family: Times New Roman, serif;
-	font-size: 2rem;
+	font-family: var(--ff-times);
+	font-size: var(--fs-body);
 	line-height: 23px;
 }
 
