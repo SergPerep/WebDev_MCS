@@ -15,6 +15,7 @@ h1, h2, h3, h4, h6, h6{
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -55,13 +56,8 @@ html{
 
 .header, .footer{
 	background-color: var(--c-red);
-}
-.header-container, .footer-container{
 	height: 60px;
 	padding: 20px;
-}
-
-.header-container p, .footer-container {
 	font-size: var(--fs-body);
 	line-height: 23px;
 	color: white;
