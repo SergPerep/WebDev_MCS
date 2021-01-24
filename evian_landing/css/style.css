@@ -37,9 +37,20 @@ a{
 
 /* ------ Reset end ------  */
 
+
+/* Variables */
+
+:root{
+		--c-cherry: #E50043;
+		--c-pink: #F8BFC7;
+	}
+
+/* ------ Variables end ------ */
+
 body{
 	font-family: Arial, sans-serif;
 }
+
 .page{
 	padding-top: 140px;
 }
@@ -59,7 +70,7 @@ body{
 }
 
 .header a{
-	color: #E50043;
+	color: var(--c-cherry);
 }
 
 .header-logo, .header-links li, .header-links a{
@@ -87,7 +98,7 @@ body{
 }
 
 .showcase_title{
-	color: #E50043;
+	color: var(--c-cherry);
 	font-size: 100px;
 	text-align: center;
 	position: absolute;
@@ -107,7 +118,7 @@ body{
 
 .footer{
 	height: 140px;
-	background-color: #F8BFC7;
+	background-color: var(--c-pink);
 	color: white;
 	font-size: 50px;
 	display: flex;
@@ -116,7 +127,7 @@ body{
 }
 
 .text_block, .product_block{
-	border: 3px solid #F8BFC7;
+	border: 3px solid var(--c-pink);
 	border-radius: 20px;
 	padding: 24px;
 	font-size: 25px;
