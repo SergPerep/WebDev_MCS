@@ -1,4 +1,46 @@
-@import url(custom_reset.css);
+/* Default browser styles reset*/
+
+* {
+	margin: 0;
+}
+
+h1, h2, h3, h4, h6, h6{
+	font-size: 16px;
+	font-weight: normal;
+}
+
+
+/* Box-sizing reset method*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Lists reset*/
+
+ul {
+	padding-left: 0;
+}
+
+ul > li{
+	list-style: none;
+}
+
+/* Links style reset */
+
+a{
+	text-decoration: none;
+}
+
+/* ------ Reset end ------  */
+
+
+html{
+	font-size: 10px;
+}
 
 .page{
 	min-width: 1350px;
@@ -13,7 +55,7 @@
 }
 
 .header-container p, .footer-container p{
-	font-size: 20px;
+	font-size: 2rem;
 	line-height: 23px;
 	color: white;
 	text-transform: uppercase;
@@ -39,7 +81,7 @@
 
 .column h2{
 	font-family: Helvetica, sans-serif;
-	font-size: 20px;
+	font-size: 2rem;
 	line-height: 23px;
 	font-weight: 700;
 	margin-bottom: 41px;
@@ -54,7 +96,7 @@
 
 .column li, .column h3{
 	font-family: Times New Roman, serif;
-	font-size: 20px;
+	font-size: 2rem;
 	line-height: 23px;
 }
 
