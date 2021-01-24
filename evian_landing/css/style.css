@@ -5,7 +5,7 @@
 }
 
 h1, h2, h3, h4, h6, h6{
-	font-size: 16px;
+	font-size: inherit;
 	font-weight: normal;
 }
 
@@ -43,7 +43,7 @@ a{
 :root{
 		--c-cherry: #E50043;
 		--c-pink: #F8BFC7;
-	}
+}
 
 /* ------ Variables end ------ */
 
