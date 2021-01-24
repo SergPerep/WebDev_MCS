@@ -56,10 +56,10 @@ html{
 
 .header, .footer{
 	background-color: var(--c-red);
-	height: 60px;
-	padding: 20px;
+	height: 6rem;
+	padding: 2rem;
 	font-size: var(--fs-body);
-	line-height: 23px;
+	line-height: 2.3rem;
 	color: white;
 	text-transform: uppercase;
 	font-family: var(--ff-helv);
@@ -67,27 +67,27 @@ html{
 }
 
 .column{
-	padding: 33px;
-	border: 5px solid var(--c-yellow);
-	border-radius: 30px;
-	width: 400px;
+	padding: 3.3rem;
+	border: 0.5rem solid var(--c-yellow);
+	border-radius: 3rem;
+	width: 40rem;
 	display: inline-block;
 	vertical-align: top;
 	text-align: left;
-	margin: 52px 0;
+	margin: 5.2rem 0;
 }
 
 .column:nth-child(2){
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 5rem;
+	margin-right: 5rem;
 }
 
 .column h2{
 	font-family: var(--ff-helv);
 	font-size: var(--fs-body);
-	line-height: 23px;
+	line-height: 2.3rem;
 	font-weight: 700;
-	margin-bottom: 41px;
+	margin-bottom: 4.1rem;
 }
 
 .main{
@@ -98,7 +98,7 @@ html{
 .column li, .column h3{
 	font-family: var(--ff-times);
 	font-size: var(--fs-body);
-	line-height: 23px;
+	line-height: 2.3rem;
 }
 
 .column ul{
@@ -111,5 +111,5 @@ html{
 
 .column h3{
 	text-transform: uppercase;
-	margin-top: 23px;
+	margin-top: 2.3rem;
 }
