@@ -63,7 +63,6 @@ body{
 	height: 14rem;
 	font-size: 5rem;
 	display: flex;
-	//justify-content: space-between;
 	padding: 0 1.5rem;
 	position: fixed;
 	top:0;
@@ -84,8 +83,6 @@ body{
 
 .header-links{
 	display: flex;
-	width: calc(100% - 150px);
-	justify-content: flex-end;
 }
 
 .header-logo, .header-links a{
@@ -93,6 +90,8 @@ body{
 }
 .header-logo{
 	width: 150px;
+	flex-grow: 1;
+	justify-content: flex-start;
 }
 
 .showcase{
