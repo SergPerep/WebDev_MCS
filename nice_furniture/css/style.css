@@ -77,10 +77,22 @@ body{
 	border: .1rem solid black;
 	width: calc((100% - 10rem)/3);
 }
-
 .product_img{
-	display: block;
-	width: 100%;
+	background-color: red;
+	padding: 75% 50%;
+	background-size: cover;
+}
+
+.meta_side_table{
+	background-image: url(../img/meta_side_table.png);
+}
+
+.click_shelf{
+	background-image: url(../img/click_shelf.png);
+}
+
+.float_shelf{
+	background-image: url(../img/float_shelf.png);
 }
 
 .product_title, .product_desc{
