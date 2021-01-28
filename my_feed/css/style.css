@@ -1,0 +1,110 @@
+/* Default browser styles reset*/
+
+* {
+	margin: 0;
+}
+
+h1, h2, h3, h4, h6, h6{
+	font-size: inherit;
+	font-weight: normal;
+}
+
+
+/* Box-sizing reset method*/
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Lists reset*/
+
+ul {
+	padding-left: 0;
+}
+
+ul > li{
+	list-style: none;
+}
+
+/* Links style reset */
+
+a{
+	text-decoration: none;
+}
+
+/* Adaptive font-size for rem */
+
+html{
+	font-size: 62.5%; /* 10px / 16px */
+}
+
+/* ------------------ Reset end -----------------  */
+
+/* Variables */
+
+:root{
+	
+}
+
+/* ------------------ Variables end -----------------  */
+
+body{
+	font-family: Helvetica, sans-serif;
+}
+
+.header, .footer{
+	background-color: #0000FF;
+	height: 10rem;
+	display: flex;
+	align-items: center;
+	color: white;
+	font-size: 2.5rem;
+	line-height: 2.9rem;
+	font-weight: 700;
+	padding: 0 3rem;
+}
+
+.main{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 2rem 2.2rem;
+}
+
+.article{
+	width: 100%;
+	border: .5rem solid black;
+	font-size: 2.5rem;
+	line-height: 2.9rem;
+	font-weight: 700;
+	height: 16.5rem;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 4rem;
+}
+
+.article:last-child{
+	margin-bottom: 0;
+}
+
+@media screen and (min-width:600px){
+	.main{
+		padding: 10.2rem 11rem;
+		justify-content: space-between;
+	}
+	.article{
+		width: calc((100% - 2rem)/2);
+		margin-bottom: 2rem;
+		font-size: 5rem;
+		line-height: 5.8rem;
+		height: 30rem;
+	}
+	.article:nth-last-child(2){
+		margin-bottom: 0;
+	}
+}
