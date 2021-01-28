@@ -66,29 +66,27 @@ body{
 }
 
 .main{
-	padding: 7rem 0;
 	display: flex;
 	justify-content: space-between;
 	width: 80vw;
-	margin: 0 auto;
+	margin: 7rem auto;
+	align-items: flex-start;
 }
 
 .product{
 	border: .1rem solid black;
 	width: calc((100% - 10rem)/3);
-	padding-bottom: 3rem;
 }
 
 .product_img{
 	display: block;
-	margin-bottom: 3rem;
 	width: 100%;
 }
 
 .product_title, .product_desc{
 	font-size: 2rem;
 	line-height: 2.5rem;
-	margin: 0 3rem;
+	margin: 3rem;
 }
 
 .product_title{
