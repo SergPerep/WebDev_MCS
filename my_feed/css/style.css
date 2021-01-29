@@ -71,7 +71,7 @@ body{
 .main{
 	display: flex;
 	flex-wrap: wrap;
-	padding: 2rem 2.2rem;
+	margin: 2rem 2.2rem;
 }
 
 .article{
@@ -96,8 +96,9 @@ body{
 
 @media screen and (min-width:600px){
 	.main{
-		padding: 10.2rem 11rem;
+		margin: 10.2rem auto;
 		justify-content: space-between;
+		width: 1220px;
 	}
 	.article{
 		width: calc((100% - 2rem)/2);
