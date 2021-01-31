@@ -96,16 +96,16 @@ body{
 
 @media screen and (min-width:600px){
 	.main{
-		margin: 10.2rem auto;
+		margin: 102px auto;
 		justify-content: space-between;
-		width: 1220px;
+		width: calc(100vw - 220px - 20px);
 	}
 	.article{
-		width: calc((100% - 2rem)/2);
+		width: calc((100vw - 220px) / 2 - 20px);
+		height: calc(((100vw - 220px) / 2 - 20px) * 2 / 3); /* 2/3 от ширины блока */
 		margin-bottom: 2rem;
 		font-size: 5rem;
 		line-height: 5.8rem;
-		height: 30rem;
 	}
 	.article:nth-last-child(2){
 		margin-bottom: 0;
