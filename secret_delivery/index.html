@@ -18,7 +18,8 @@
 		<a class="header_menu" href="#">Меню</a>
 	</header>
 	<main class="main">
-		<form class="form_send">
+		<div class="hero_image">
+			<form class="form_send">
 			<fieldset class="input_set">
 				<!-- Username -->
 				<label for="username">Имя</label>
@@ -35,12 +36,13 @@
 				<label for="gift">Подарок</label>
 				<input type="text" name="gift">
 				<!-- Email -->
+				<label for="email">Электронная почта</label>
+				<input type="email" name="email" placeholder="example@example.com">
 			</fieldset>
 			<!-- Submit button -->
 			<input type="submit" value="Отправить">
-		</form>
-
-		<img class="hero_image" src="img/background.png" alt="illustration bike">
+			</form>
+		</div>
 		<h1>Ваша посылка уже в пути!</h1>
 	</main>
 	<footer class="footer">

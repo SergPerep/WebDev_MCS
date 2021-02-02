@@ -48,6 +48,10 @@ label, input, select{
 	width: 100%;
 }
 
+input:focus, select:focus{
+	outline: none;
+}
+
 /* ------------------ Reset end -----------------  */
 
 /* Variables */
@@ -66,19 +70,19 @@ body{
 
 .header, .footer{
 	background-color: var(--c-pink);
-	height: 90px;
+	height: 9rem;
 	display: flex;
 	justify-content: space-between;
-	padding: 0 50px;
+	padding: 0 5rem;
 }
 .header_nav li{
 	display: inline-block;
 }
 .header_nav a, .header_menu, .footer p{
 	display: block;
-	padding: 33px 15px;
-	font-size: 20px;
-	line-height: 24px;
+	padding: 3.3rem 1.5rem;
+	font-size: 2rem;
+	line-height: 2.4rem;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: black;
@@ -90,72 +94,77 @@ body{
 
 .main{
 	background-color: var(--c-blue);
-	padding-bottom: 114px;
+	padding-bottom: 11.4rem;
 }
 
 .hero_image{
 	display: block;
 	width: 100%;
+	height: calc(100vw * .45);
+	background-image: url(../img/background.png);
+	background-size: cover;
+	padding: 9rem;
 }
 
 h1{
-	font-size: 50px;
-	line-height: 58px;
+	font-size: 5rem;
+	line-height: 5.8rem;
 	color: var(--c-yellow);
 	text-transform: uppercase;
 	font-weight: 700;
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 3rem;
 }
 
 .form_send{
-	width: 300px;
-	padding: 30px;
-	background-color: pink;
+	width: 30rem;
 }
 
 .input_set{
 	background-color: var(--c-pink);
-	padding: 30px;
-	border: 3px solid white;
-	border-radius: 20px;
+	padding: 3rem;
+	border: .3rem solid white;
+	border-radius: 2rem;
 }
 
 .input_set label, .input_set input, .input_set select{
-	font-size: 20px;
+	font-size: 2rem;
 	font-weight: 700;
-	line-height: 23px;
+	line-height: 2.3rem;
 	color: white;
 	background-color: transparent;
 }
 
 .input_set label:not(:first-child){
-	margin: 16px 0 8px; 
+	margin: 1.6rem 0 .8rem; 
 }
 
 .input_set input, .input_set select{
 	font-family: Times New Roman, serif;
-	padding: 8px 0px 0;
-	border-bottom: 1px solid white;
+	padding: .8rem 0 0;
+	border-bottom: .1rem solid white;
 	font-weight: 400;
 }
 
 .form_send input[type="submit"]{
-	border: 3px solid white;
+	border: .3rem solid white;
 	background-color: var(--c-yellow);
-	border-radius: 30px;
+	border-radius: 3rem;
 	color: white;
-	width: 200px;
-	height: 60px;
-	margin: 10px auto 0;
-	font-size: 20px;
-	line-height: 23px;
+	width: 20rem;
+	height: 6rem;
+	margin: 1rem auto 0;
+	font-size: 2rem;
+	line-height: 2.3rem;
 	font-weight: 700;
 	text-transform: uppercase;
 }
 
-input{
-	outline: none;
+.input_set input::placeholder{
+	color: rgba(255, 255, 255, .5);
 }
+
+
+
 
 
