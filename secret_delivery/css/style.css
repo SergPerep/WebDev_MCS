@@ -1,0 +1,161 @@
+/* Default browser styles reset*/
+
+* {
+	margin: 0;
+}
+
+h1, h2, h3, h4, h6, h6{
+	font-size: inherit;
+	font-weight: normal;
+}
+
+
+/* Box-sizing reset method*/
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Lists reset*/
+
+ul {
+	padding-left: 0;
+}
+
+ul > li{
+	list-style: none;
+}
+
+/* Links style reset */
+
+a{
+	text-decoration: none;
+}
+
+/* Adaptive font-size for rem */
+
+html{
+	font-size: 62.5%; /* 10px / 16px */
+}
+
+label, input, select{
+	display: block;
+	border: none;
+	width: 100%;
+}
+
+/* ------------------ Reset end -----------------  */
+
+/* Variables */
+
+:root{
+	--c-pink: #F8BFC7;
+	--c-blue: #336FD1;
+	--c-yellow: #FEB700;
+}
+
+/* ------------------ Variables end -----------------  */
+
+body{
+	font-family: Helvetiva, sans-serif;
+}
+
+.header, .footer{
+	background-color: var(--c-pink);
+	height: 90px;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 50px;
+}
+.header_nav li{
+	display: inline-block;
+}
+.header_nav a, .header_menu, .footer p{
+	display: block;
+	padding: 33px 15px;
+	font-size: 20px;
+	line-height: 24px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: black;
+}
+
+.footer p{
+	color: white;
+}
+
+.main{
+	background-color: var(--c-blue);
+	padding-bottom: 114px;
+}
+
+.hero_image{
+	display: block;
+	width: 100%;
+}
+
+h1{
+	font-size: 50px;
+	line-height: 58px;
+	color: var(--c-yellow);
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.form_send{
+	width: 300px;
+	padding: 30px;
+	background-color: pink;
+}
+
+.input_set{
+	background-color: var(--c-pink);
+	padding: 30px;
+	border: 3px solid white;
+	border-radius: 20px;
+}
+
+.input_set label, .input_set input, .input_set select{
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 23px;
+	color: white;
+	background-color: transparent;
+}
+
+.input_set label:not(:first-child){
+	margin: 16px 0 8px; 
+}
+
+.input_set input, .input_set select{
+	font-family: Times New Roman, serif;
+	padding: 8px 0px 0;
+	border-bottom: 1px solid white;
+	font-weight: 400;
+}
+
+.form_send input[type="submit"]{
+	border: 3px solid white;
+	background-color: var(--c-yellow);
+	border-radius: 30px;
+	color: white;
+	width: 200px;
+	height: 60px;
+	margin: 10px auto 0;
+	font-size: 20px;
+	line-height: 23px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+input{
+	outline: none;
+}
+
+

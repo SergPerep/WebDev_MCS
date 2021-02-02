@@ -1,17 +1,59 @@
-@import url(reset.css);
-@import url(custom_reset.css);
+/* Default browser styles reset*/
 
-.lab_rabbit {
-	background-color: pink;
-	width:300px;
-	height: 300px;
+* {
+	margin: 0;
 }
 
-/* small screen > 600px */
-
-@media screen and (min-width: 600px){
-	.lab_rabbit{
-		background-color: blue;
-	}
+h1, h2, h3, h4, h6, h6{
+	font-size: inherit;
+	font-weight: normal;
 }
+
+
+/* Box-sizing reset method*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Lists reset*/
+
+ul {
+	padding-left: 0;
+}
+
+ul > li{
+	list-style: none;
+}
+
+/* Links style reset */
+
+a{
+	text-decoration: none;
+}
+
+/* ------ Reset end ------  */
+
+
+/* Variables */
+
+:root{
+}
+
+/* ------ Variables end ------ */
+
+
+form{
+
+}
+
+label, input, select {
+	display: block;
+}
+
+
+
 

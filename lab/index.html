@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Flex</title>
+	<title>Froms</title>
 	<meta charset="utf-8">
 	<meta description="boilerplate code">
 	<meta keywords="boilerplate, test">
@@ -9,17 +9,43 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div>
-		<header>
-			<div></div>
-			<nav></nav>
-		</header>
 		<main class="lab_rabbit">
+			<form action="/action_page.php">
+				<!-- Username -->
+				<fieldset>
+
+				<label for="username">Name</label>
+				<input type="text" name="name" placeholder="Alex Brown" value="Sergei" disabled>
+				<!-- Email -->
+
+				<label for="email">Email</label>
+				<input type="email" name="email" placeholder="expample@example.com">
+
+				<!-- Password -->
+
+				<lable for="pwd">Password</lable>
+				<input type="password" name="pwd" placeholder="Your Password">
+
+				<!-- Birthdate -->
+
+				<label for="birth_date"> Date of birth</label>
+				<input type="date" name="birth_date" required>
+
+				<!-- Sex -->
+
+				<label for="sex">Sex</label>
+				<input type="radio" name="sex" value="male"><span>Male</span>
+				<input type="radio" name="sex" value="female"><span>Female</span>
+				<input type="radio" name="sex" value="other" checked><span>Other</span>
+				</fieldset>
+				<!-- Buttom -->
+
+				<input type="submit" value="Send">
+			</form>
 			
 		</main>
 		<footer>
 			<div></div>
 		</footer>
-	</div>
 </body>
 </html>

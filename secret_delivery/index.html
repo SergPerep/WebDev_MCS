@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Secret Delivery</title>
+	<meta charset="utf-8">
+	<meta description="boilerplate code">
+	<meta keywords="boilerplate, test">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="header">
+		<ul class="header_nav">
+			<li><a href="#">Посылки</a></li>
+			<li><a href="#">Упаковка</a></li>
+			<li><a href="#">Подписка</a></li>
+		</ul>
+		<a class="header_menu" href="#">Меню</a>
+	</header>
+	<main class="main">
+		<form class="form_send">
+			<fieldset class="input_set">
+				<!-- Username -->
+				<label for="username">Имя</label>
+				<input type="text" name="username" placeholder="Иван Иванов">
+				<!-- City -->
+				<label for="city">Город</label>
+				<select name="city">
+					<option>Выберите город</option>
+					<option value="moscow">Москва</option>
+					<option value="st.petersburg">Санкт-Петербург</option>
+					<option value="sochi">Сочи</option>
+				</select>
+				<!-- Gift Desc -->
+				<label for="gift">Подарок</label>
+				<input type="text" name="gift">
+				<!-- Email -->
+			</fieldset>
+			<!-- Submit button -->
+			<input type="submit" value="Отправить">
+		</form>
+
+		<img class="hero_image" src="img/background.png" alt="illustration bike">
+		<h1>Ваша посылка уже в пути!</h1>
+	</main>
+	<footer class="footer">
+		<p class="footer_desc">Секретные посылки для друзей</p>
+		<p class="footer_copy">© 2019</p>
+	</footer>
+</body>
+</html>
