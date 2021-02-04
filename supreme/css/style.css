@@ -58,26 +58,43 @@ html{
 
 /* ------------------ Variables end -----------------  */
 
-body{
+.page{
 	font-family: 'Space Mono', monospace;
 	background-color: black;
 	font-size: 20px;
-	line-height: 35px;
+	line-height: 30px;
 	color: white;
 }
 
+.page_theme-light{
+	background-color: white;
+	color: black; 
+}
+
 .main{
-	width: 307px;
-	margin: auto;
+	margin: 0px 12px;
 }
 
 a{
 	color: white;
 }
 
-a:hover{
+.page_theme-light a{
+	color: black;
+}
+
+.nav{
+	width: 307px;
+	margin: 41px auto 25px;
+}
+
+.nav a{
+	line-height: 35px;
+}
+
+.nav a:hover{
 	color: white;
-	background-color: var(--c-red); 
+	background-color: var(--c-red);
 }
 
 .header{
@@ -93,13 +110,74 @@ a:hover{
 .footer{
 	display: flex;
 	justify-content: center;
-	padding: 50px 0 116px;
+	padding: 50px 12px 116px;
 }
 
-.footer a{
+.footer-socials a{
 	margin: 0 15px;
 }
 
-.nav{
-	margin: 41px 0 25px;
+
+.footer .nav{
+	margin: 0;
+	width: 100%;
+}
+
+.footer-socials li{
+	display: inline-block;
+}
+
+.footer-socials a, .footer-socials img{
+	display: block;
+}
+
+.news-gallery{
+	margin-bottom: 40px;
+}
+
+.news-gallery img{
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.news-title{
+	font-size: 25px;
+	line-height: 37px;
+	margin-bottom: 24px;
+}
+
+.gallery-counter{
+	text-align: center;
+}
+
+@media screen and (min-width: 600px){
+	.main{
+		width: 810px;
+		margin: auto;
+	}
+
+	.news-item{
+		display: flex;
+	}
+
+	.news-gallery{
+		width: 390px;
+		padding-top: 40px;
+	}
+
+	.news-content{
+		width: calc(100% - 390px);
+		padding-left: 20px;
+	}
+
+	.footer .nav{
+		padding-top: 50px;
+		text-align: center;
+	}
+
+	.footer .nav li{
+		display: inline-block;
+		padding: 0 15px;
+	}
 }
