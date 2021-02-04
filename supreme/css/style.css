@@ -1,0 +1,105 @@
+/* Default browser styles reset*/
+
+* {
+	margin: 0;
+}
+
+h1, h2, h3, h4, h6, h6{
+	font-size: inherit;
+	font-weight: normal;
+}
+
+
+/* Box-sizing reset method*/
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Lists reset*/
+
+ul {
+	padding-left: 0;
+}
+
+ul > li{
+	list-style: none;
+}
+
+/* Links style reset */
+
+a{
+	text-decoration: none;
+}
+
+/* Adaptive font-size for rem */
+
+html{
+	font-size: 62.5%; /* 10px / 16px */
+}
+
+
+/* ------------------ Reset end -----------------  */
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+/* ------------------ Fonts end -----------------  */
+
+/* Variables */
+
+:root{
+	--c-red: #FF0000;
+}
+
+/* ------------------ Variables end -----------------  */
+
+body{
+	font-family: 'Space Mono', monospace;
+	background-color: black;
+	font-size: 20px;
+	line-height: 35px;
+	color: white;
+}
+
+.main{
+	width: 307px;
+	margin: auto;
+}
+
+a{
+	color: white;
+}
+
+a:hover{
+	color: white;
+	background-color: var(--c-red); 
+}
+
+.header{
+	text-align: center;
+	padding: 116px 0 50px;
+}
+
+.header span{
+	display: block;
+	margin-top: 38px;
+}
+
+.footer{
+	display: flex;
+	justify-content: center;
+	padding: 50px 0 116px;
+}
+
+.footer a{
+	margin: 0 15px;
+}
+
+.nav{
+	margin: 41px 0 25px;
+}
