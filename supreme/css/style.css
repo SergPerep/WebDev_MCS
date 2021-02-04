@@ -61,8 +61,8 @@ html{
 .page{
 	font-family: 'Space Mono', monospace;
 	background-color: black;
-	font-size: 20px;
-	line-height: 30px;
+	font-size: 2rem;
+	line-height: 3rem;
 	color: white;
 }
 
@@ -72,7 +72,7 @@ html{
 }
 
 .main{
-	margin: 0px 12px;
+	margin: 0 1.2rem;
 }
 
 a{
@@ -84,12 +84,12 @@ a{
 }
 
 .nav{
-	width: 307px;
-	margin: 41px auto 25px;
+	width: 30.7rem;
+	margin: 4.1rem auto 2.5rem;
 }
 
 .nav a{
-	line-height: 35px;
+	line-height: 3.5rem;
 }
 
 .nav a:hover{
@@ -99,22 +99,22 @@ a{
 
 .header{
 	text-align: center;
-	padding: 116px 0 50px;
+	padding: 11.6rem 0 5rem;
 }
 
 .header span{
 	display: block;
-	margin-top: 38px;
+	margin-top: 3.8rem;
 }
 
 .footer{
 	display: flex;
 	justify-content: center;
-	padding: 50px 12px 116px;
+	padding: 5rem 1.2rem 11.6rem;
 }
 
 .footer-socials a{
-	margin: 0 15px;
+	margin: 0 1.5rem;
 }
 
 
@@ -132,19 +132,19 @@ a{
 }
 
 .news-gallery{
-	margin-bottom: 40px;
+	margin-bottom: 4rem;
 }
 
 .news-gallery img{
 	display: block;
 	width: 100%;
-	margin-bottom: 20px;
+	margin-bottom: 2rem;
 }
 
 .news-title{
-	font-size: 25px;
-	line-height: 37px;
-	margin-bottom: 24px;
+	font-size: 2.5rem;
+	line-height: 3.7rem;
+	margin-bottom: 2.4rem;
 }
 
 .gallery-counter{
@@ -153,7 +153,7 @@ a{
 
 @media screen and (min-width: 600px){
 	.main{
-		width: 810px;
+		width: 81rem;
 		margin: auto;
 	}
 
@@ -162,22 +162,22 @@ a{
 	}
 
 	.news-gallery{
-		width: 390px;
-		padding-top: 40px;
+		width: 39rem;
+		padding-top: 4rem;
 	}
 
 	.news-content{
-		width: calc(100% - 390px);
-		padding-left: 20px;
+		width: calc(100% - 39rem);
+		padding-left: 2rem;
 	}
 
 	.footer .nav{
-		padding-top: 50px;
+		padding-top: 5rem;
 		text-align: center;
 	}
 
 	.footer .nav li{
 		display: inline-block;
-		padding: 0 15px;
+		padding: 0 1.5rem;
 	}
 }
