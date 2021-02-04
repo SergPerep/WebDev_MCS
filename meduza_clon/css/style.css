@@ -1,0 +1,294 @@
+/* Default browser styles reset*/
+
+* {
+	margin: 0;
+}
+
+h1, h2, h3, h4, h6, h6{
+	font-size: inherit;
+	font-weight: normal;
+}
+
+
+/* Box-sizing reset method*/
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Lists reset*/
+
+ul {
+	padding-left: 0;
+}
+
+ul > li{
+	list-style: none;
+}
+
+/* Links style reset */
+
+a{
+	text-decoration: none;
+}
+
+/* Adaptive font-size for rem */
+
+html{
+	font-size: 62.5%; /* 10px / 16px */
+}
+
+
+/* ------------------ Reset end -----------------  */
+
+/* Variables */
+
+:root{
+	--c-sand: #A37846;
+	--c-gray: #9CA1A9;
+}
+
+/* ------------------ Variables end -----------------  */
+
+/* Grid */
+
+.grd-8{
+	width: 100%;
+}
+
+.grd-4{
+	width: 50%;
+}
+
+.grd-2{
+	width: 25%;
+}
+
+.footer-grd{
+	width: 20%;
+	padding: 0 1.5rem;
+}
+
+/* ------------------ Grid end -----------------  */
+
+
+body{
+	background-color: black;
+	font-family: 'PF Regal', 'PF Regal Text Pro', 'Georgia', serif;
+	font-weight: 400;
+}
+
+a{
+	color: black;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2.5rem 3rem 0;
+	font-weight: 700;
+}
+
+.header-logo{
+	margin-left: 3rem;
+}
+
+.header-nav{
+	text-align: center;
+}
+
+.header-nav li{
+	display: inline-block;
+}
+
+.header-nav li a, .header-lang{
+	display: block;
+	color: white;
+	font-size: 1.5rem;
+	line-height: 1.8rem;
+	text-transform: uppercase;
+	padding: 1.5rem;
+}
+.header-options{
+	display: flex;
+	align-items: center;
+}
+
+.vertical-divider{
+	height: 2.5rem;
+	background-color: white;
+	width: .1rem;
+}
+
+.header-nav li a.selected{
+	color: var(--c-sand);
+}
+
+.search-icon{
+	display: block;
+	padding: 1.6rem;
+	margin-right: 1.4rem;
+}
+
+.status-pannel{
+	padding: 1.6rem;
+	border-radius: 1rem;
+	background-color: white;
+	margin: 1.5rem 6rem;
+	font-size: 1.7rem;
+	line-height: 2.1rem;
+	font-weight: 700;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.exchange-rate .symbol{
+	color: var(--c-gray);
+	margin-right: .5rem; 
+}
+
+.dollar-value, .euro-value{
+	margin-right: 1.5rem; 
+}
+
+.sorter{
+	color: var(--c-gray);
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+}
+
+.toggle{
+	width: 4.8rem;
+	height: 2.4rem;
+	background-color: #e6e6e6;
+	padding: .2rem;
+	border-radius: 1.2rem;
+	margin-left: 1rem;
+}
+
+.toggle-item{
+	width: 2rem;
+	height: 2rem;
+	background-color: white;
+	border-radius: 1rem;
+}
+
+
+.main{
+	padding: 3rem 6rem;
+	margin: 0 6rem;
+	background-color: #F2F2F2;
+	border-radius: 1rem 1rem 0 0;
+}
+
+.row{
+	background-color: white;
+	border: .1rem solid #9CA1A9;
+	border-radius: 1rem;
+	margin: 2rem 0;
+	display: flex;
+}
+
+.article{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.article-date{
+	color: var(--c-gray);
+	font-size: 1.5rem;
+	line-height: 1.8rem;
+	font-weight: 700;
+	margin: 3rem 0;
+}
+
+.article_fullwidth{
+	text-align: center;
+	padding: 0 3rem;
+}
+
+.article_fullwidth .article-title{
+	font-size: 5rem;
+	line-height: 5rem;
+	margin-top: 4.5rem;
+}
+
+.article_half{
+	padding-left: 3rem;
+}
+
+.article_half .article-title{
+	font-size: 3.5rem;
+	line-height: 4.1rem;
+	margin-top: 3rem;
+}
+
+.article-quarter {
+	padding: 0 3rem 0 2.5rem;
+}
+
+.article-quarter:nth-child(odd){
+	padding-left: 1.5rem;
+}
+
+.article-quarter .article-title{
+	font-size: 2rem;
+	line-height: 2.4rem;
+	margin-top: 3rem;
+}
+
+.article-quarter:nth-child(1) .article-date,
+.article-quarter:nth-child(2) .article-date{
+	margin-bottom: 2.5rem;
+}
+
+.article-quarter:nth-child(3) .article-title,
+.article-quarter:nth-child(4) .article-title{
+	margin-top: 2.5rem;
+}
+
+.row_highlight{
+	border: .5rem solid var(--c-sand);
+}
+
+.matrix-formation{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer{
+	background-color: black;
+	color: white;
+	font-size: 1.5rem;
+	line-height: 1.8rem;
+	font-weight: 700;
+}
+
+.footer a{
+	color: white;
+}
+
+.footer-links{
+	padding: 5rem 10rem;
+	display: flex;
+}
+
+.footer-links-title{
+	display: block;
+	text-transform: uppercase;
+	margin: 3.4rem 0 2.4rem;
+}
+.footer-end{
+	border-top: .1px solid white;
+	margin: 0 20rem;
+	padding: 5rem 0;
+}
+
